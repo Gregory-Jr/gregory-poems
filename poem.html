@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Into The Wilderness - UTOPIAN POEMATA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Great Vibes', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('static/deserted.jpg') no-repeat center center/cover;
+            color: #f8f8f2;
+            text-align: center;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        .poem-container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            position: relative;
+            text-align: justify;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: lightpink;
+        }
+
+        p {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-family: 'Great Vibes', cursive;
+            background-color: #89b4fa;
+            color: #1e1e2e;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #f38ba8;
+            transform: translateY(-3px);
+        }
+
+        .floating-emoji {
+            position: absolute;
+            font-size: 2em;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-30px); }
+            100% { transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            .poem-container {
+                padding: 15px;
+                text-align: justify;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="poem-container">
+        <h1>Into The Wilderness</h1>
+        <p>
+            Rendered mind needling me to walk<br>
+            Into the wilderness,<br>
+            Even though I have mine, I forgot to think;<br>
+            Kindred heart swinging with me. <br><br>
+
+             Everything's left; It's just my thoughts.<br>
+            My coffin is empty.<br>
+            The great glory of Ozymandias<br>
+            Is ruined in vain; nothing besides remains. <br><br>
+
+             Lucifer the morning star, rebelled against God;<br>
+            His restless voice talks with the wilderness.<br>
+            I thought I walked; my mind was dried.<br>
+            Nevermind, but it never fills my mind. <br><br>
+
+            Oh, poor mind of men! 
+        </p>
+        <button class="back-button" onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+
+</body>
+</html>
